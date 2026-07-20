@@ -79,7 +79,8 @@
           </div>
         </div>
         </div>
-      <input type="file" id="photo-input" accept="image/*" onchange="handlePhoto(event)"/>
+      <!-- Added style="display: none;" here to hide the raw browser input button -->
+      <input type="file" id="photo-input" accept="image/*" onchange="handlePhoto(event)" style="display: none;"/>
     </div>
   </div>
 </div>
